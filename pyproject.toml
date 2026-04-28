@@ -1,0 +1,15 @@
+[project]
+name = "playwright-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.38.0",
+    "pytest>=7.0.0",
+    "pytest-html>=4.1.1",
+]
+
+[tool.pytest.ini_options]
+addopts = "-v --html=reports/automation-practice-report.html --self-contained-html"
+testpaths = ["tests"]
