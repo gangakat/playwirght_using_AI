@@ -1,7 +1,8 @@
-# Playwright Automation Practice Tests
+# playwirght_using_AI
 
-This project automates the Rahul Shetty Automation Practice page with Python,
-pytest, and Playwright.
+Automated website tests using AI-assisted Python, pytest, and Playwright.
+
+This project automates the Rahul Shetty Automation Practice page.
 
 Target page:
 
